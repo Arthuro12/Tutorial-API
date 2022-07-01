@@ -7,13 +7,13 @@ namespace ApplicationAPI
 {
     public class Tuto
     {
-        public string title { set; get; }
+        public string title { get; set; }
 
-        public int price { set; get; }
+        public int price { get; set; }
 
-        public string image { set; get; }
+        public string image { get; set; }
 
-        public string description { set; get; }
+        public string description { get; set; }
 
         public override string ToString()
         {
